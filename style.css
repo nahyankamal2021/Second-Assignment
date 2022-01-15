@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
+
+/* --------------common btn styles (first section and third section btn)---------- */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdf9f8;
+}
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(to right, #7b4397 0%, #dc2430  51%, #7b4397  100%);
+     padding: 15px 35px;
+     color:white;
+     text-transform: uppercase;
+     text-align: center;
+    box-shadow: 0 0 20px rgb(66, 63, 63);
+     border-radius: 30px;
+     opacity:0.6;
+  
+}
+
+.btn:hover{
+opacity:1;
+transition:all 1s ease-in-out;
+
+ }
+
+
+ /*------------------- common style end------------------ */
+
+
+
+
+ /*-------------- header section start------------- */
+ header{
+    margin-top:50px;
+}
+.brand-name{
+    font-size: 24px;
+    color:#3a3a3a;
+    margin-left: 220px;
+}
+      /* ----------------header section end------------- */
+
+
+
+
+/* ------------First Section's style started-------------- */
+  
+.first-section{
+    width:100%;
+}
+.top-part{
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .right-img{
+        padding:10px;
+        background-repeat: no-repeat;
+        margin-bottom: 80px;
+        background-image: url("images/Circle\ design.svg");
+        transition:all 2s;
+        overflow:hidden;
+    
+    }
+    .camera-pic{
+    
+        transform-origin: 50% 50%;
+        transition:transform 15s linear;
+    }
+    .camera-pic:hover{
+        transform:scale(2) rotate(0.1deg);
+    }
+    
+    .top-title{
+        font-size:50px;
+    }
+    .top-detail{
+        margin-bottom: 25px;
+        text-align: justify;
+
+    }
+   
+    .lower-part{
+        margin-top:30px;
+
+    }
+    .brand-logos{
+
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        vertical-align:middle;
+
+    }
+    .lower-part{
+        padding:50px;
+        border-top:1px solid rgb(224, 212, 212);
+        border-bottom:1px solid rgb(224, 212, 212);
+    }
+  
+    .logo{
+        padding-right:30px;
+        display:block;
+
+
+    }
+    /* ------------First Section's style End-------------- */
+
+
+
+
+/* ----------Middle Section's style Start------------ */
+
+
+.middle-section{
+    margin-top:100px;
+    margin-left:100px;
+    margin-right:100px;
+    
+}
+.middle-sec-title{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    color:#3a3a3a;
+    
+}
+
+.middle-layout{ 
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-row-gap:30px;
+    grid-column-gap: 30px;
+ 
+}
+.cards{
+    box-shadow: 0 0 20px rgb(151, 144, 144);
+    
+    width: 70%;
+}
+.single-box{
+    margin:15px;
+    
+}
+.single-box img{
+    width:100%;
+    border-radius: 10px;
+}
+.product-name{
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom:-25px;
+
+}
+.product-price{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: -15px;;
+}
+.fa-star.filled{
+    color:#FB8200;
+}
+.fa-star-half-alt{
+    color:#FB8200;
+}
+.middle-btn{
+    text-decoration: none;
+    float:right;
+    margin-right: 160px;
+    color:purple;
+    font-size: 20px;
+    
+}
+
+
+      /*------ Middle Section Style End------ */
+
+/* --------Third Section Style Started (Bonus-Part)------ */
+
+.third-section{
+    margin-top: 120px;
+}
+
+.third-sec-container{
+    display: flex;
+    justify-content: space-around;
+}
+.left-image{
+    
+}
+
+.left-image img {
+    height: 300px;
+    width:450px;
+    border-radius:10px;
+    
+
+}
+.right-content{
+    padding-right: 150px;
+    
+}
+.detail{
+    text-align: justify;
+    color:#6C6C6C;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.right-content h1{
+    font-size: 38px;
+    font-weight: 700;
+}
+
+
+
+/* ---------Third Section Style End------- */
+
+
+
+
+/*---------- footer style started---------- */
+
+footer{
+    margin-top:100px;
+    height:240px;
+    width:100%;
+    background-color: #0a0826;
+    color:white;
+   
+    
+}
+.footer-text{
+    text-align: center;
+    padding:20px 0;
+    
+}
+.footer-text h3 {
+font-weight: 700; 
+font-size: 24px;
+margin-bottom: 10px;
+}
+.footer-text h5, h6 {
+    color:#D9DBE1;
+    font-size: 14px;
+    font-weight: 400;
+      margin:07px 0 ;
+}
+.icons{
+    color:white;
+    text-align: center;
+    font-size:28px;
+    margin-top: -10px;
+}
+.icon{
+    padding-right: 15px;
+}
+    /* -----------Footer Style End--------- */
+
+    /* ------------media query------------ */
+
+   
+
+    @media only screen and (max-width:768px){
+        .top-part{
+            flex-wrap: wrap;
+        }
+        .left-content{
+           font-size:14px ;
+        }
+        .brand-logos{
+            flex-wrap: wrap;
+        }
+        .middle-layout{
+            grid-template-columns: repeat(2, 1fr);
+      }
+       .third-sec-container{
+        flex-wrap:wrap;
+       }
+       .right-content{
+           text-align: center;
+           margin-left: 20px;
+       }
+
+
+    }
+
+
+
+/* mobile device breakpoint */
+    @media only screen and (max-width: 668px){
+
+.top-part{
+    flex-wrap: wrap;
+}
+.left-content{
+    font-size:12px ;
+    margin-bottom: 50px;
+ }
+.brand-logos{
+    flex-wrap: wrap;
+}
+.middle-layout{
+    grid-template-columns: repeat(1, 1fr);
+}
+.third-sec-container{
+    flex-wrap:wrap;
+}
+        
+    }
+
+
+
+   
+
+  
