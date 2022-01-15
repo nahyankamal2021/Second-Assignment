@@ -19,13 +19,10 @@ body{
      opacity:0.6;
   
 }
-
 .btn:hover{
 opacity:1;
 transition:all 1s ease-in-out;
-
- }
-
+}
 
  /*------------------- common style end------------------ */
 
@@ -41,7 +38,7 @@ transition:all 1s ease-in-out;
     color:#3a3a3a;
     margin-left: 220px;
 }
-      /* ----------------header section end------------- */
+   /* ----------------header section end------------- */
 
 
 
@@ -110,10 +107,7 @@ transition:all 1s ease-in-out;
     /* ------------First Section's style End-------------- */
 
 
-
-
 /* ----------Middle Section's style Start------------ */
-
 
 .middle-section{
     margin-top:100px;
@@ -177,7 +171,6 @@ transition:all 1s ease-in-out;
     
 }
 
-
       /*------ Middle Section Style End------ */
 
 /* --------Third Section Style Started (Bonus-Part)------ */
@@ -217,11 +210,7 @@ transition:all 1s ease-in-out;
     font-weight: 700;
 }
 
-
-
 /* ---------Third Section Style End------- */
-
-
 
 
 /*---------- footer style started---------- */
@@ -264,7 +253,6 @@ margin-bottom: 10px;
 
     /* ------------media query------------ */
 
-   
 
     @media only screen and (max-width:768px){
         .top-part{
